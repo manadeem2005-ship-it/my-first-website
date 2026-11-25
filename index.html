@@ -1,0 +1,310 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+
+
+.about {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #1e293b;
+}
+
+.about h2 {
+    color: #38bdf8;
+    font-size: 32px;
+}
+
+.about p {
+    max-width: 700px;
+    margin: auto;
+    line-height: 1.8;
+    color: #cbd5e1;
+}
+
+.skills {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.skills h2 {
+    color: #38bdf8;
+    font-size: 32px;
+}
+
+.skill-box {
+    display: inline-block;
+    background-color: #1e293b;
+    padding: 20px;
+    margin: 10px;
+    width: 180px;
+    border-radius: 10px;
+}
+
+.skill-box h3 {
+    color: #38bdf8;
+}
+
+.skill-box p {
+    color: white;
+}
+
+.projects {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #1e293b;
+}
+
+.projects h2 {
+    color: #38bdf8;
+    font-size: 32px;
+}
+
+.project-card {
+    display: inline-block;
+    width: 250px;
+    padding: 20px;
+    margin: 15px;
+    background-color: #0f172a;
+    border-radius: 12px;
+    border: 1px solid #38bdf8;
+}
+
+.project-card h3 {
+    color: #38bdf8;
+}
+
+.project-card p {
+    color: white;
+    line-height: 1.6;
+}
+
+.contact {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #0f172a;
+}
+
+.contact h2 {
+    color: #38bdf8;
+    font-size: 32px;
+}
+
+.contact p {
+    color: white;
+}
+
+.contact input,
+.contact textarea {
+    display: block;
+    width: 80%;
+    max-width: 400px;
+    padding: 12px;
+    margin: 15px auto;
+    border: none;
+    border-radius: 6px;
+}
+
+.contact textarea {
+    height: 100px;
+}
+
+.contact button {
+    background-color: #38bdf8;
+    color: #0f172a;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #0f172a;
+            color: white;
+        }
+
+        nav {
+            padding: 20px 50px;
+            background-color: #111827;
+        }
+
+        nav h2 {
+            color: #38bdf8;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 100px 20px;
+        }
+
+        .hero h1 {
+            font-size: 45px;
+        }
+
+        .hero span {
+            color: #38bdf8;
+        }
+
+        .hero p {
+            color: #cbd5e1;
+            font-size: 18px;
+        }
+
+        .btn {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 12px 25px;
+            background-color: #38bdf8;
+            color: #0f172a;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: bold;
+
+            
+        }
+
+/* Responsive design */
+
+* {
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+@media (max-width: 600px) {
+
+    nav {
+        padding: 15px;
+    }
+
+    .hero {
+        padding: 60px 15px;
+    }
+
+    .hero h1 {
+        font-size: 30px;
+    }
+
+    .hero p {
+        font-size: 16px;
+    }
+
+    .about {
+        padding: 40px 15px;
+    }
+
+    .skill-box,
+    .project-card {
+        display: block;
+        width: 100%;
+        max-width: 300px;
+        margin: 15px auto;
+    }
+
+    .contact input,
+    .contact textarea {
+        width: 100%;
+    }
+}
+
+    </style>
+</head>
+
+<body>
+
+    <nav>
+        <h2>My Portfolio</h2>
+    </nav>
+
+<section class="about">
+    <h2>About Me</h2>
+
+    <p>
+        I am a beginner web developer.
+        I am learning HTML, CSS and JavaScript.
+        I enjoy creating websites and solving problems.
+    </p>
+</section>
+ 
+
+<section class="skills">
+    <h2>My Skills</h2>
+
+    <div class="skill-box">
+        <h3>HTML</h3>
+        <p>Learning website structure</p>
+    </div>
+
+    <div class="skill-box">
+        <h3>CSS</h3>
+        <p>Learning website design</p>
+    </div>
+
+    <div class="skill-box">
+        <h3>JavaScript</h3>
+        <p>Coming soon</p>
+    </div>
+</section>
+
+<section class="projects">
+    <h2>My Projects</h2>
+
+    <div class="project-card">
+        <h3>My First Website</h3>
+        <p>A simple website created using HTML.</p>
+    </div>
+
+    <div class="project-card">
+        <h3>Personal Portfolio</h3>
+        <p>A portfolio website created using HTML and CSS.</p>
+    </div>
+
+</section>
+
+
+<section class="contact">
+    <h2>Contact Me</h2>
+
+    <p>Have a project? Let's work together!</p>
+
+    <form>
+        <input type="text" placeholder="Your Name">
+
+        <input type="email" placeholder="Your Email">
+
+        <textarea placeholder="Your Message"></textarea>
+
+        <button type="button">Send Message</button>
+    </form>
+</section>
+
+
+
+
+
+    <section class="hero">
+        <h1>Hello, I'm <span>Mohammed Nadeem </span></h1>
+
+        <p>I am a hardworking and motivated person who always wants to learn new things and improve my knowledge and skills.</p>
+
+        <p>My dream is to become a successful persion.</p>
+
+        <button class="btn" onclick="showMessage()">
+    Contact Me
+</button>
+
+    </section>
+    <script src="script.js"></script>
+
+</body>
+</html>
